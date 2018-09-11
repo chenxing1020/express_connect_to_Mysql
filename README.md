@@ -2,7 +2,7 @@
 在node.js中使用Mysql
 
 ## Preface
-&emsp;&emsp;最近在看George Ornbo的node.js入门经典，因为书里用的数据库是NoSQL数据库，而平时习惯了关系型数据库，所以就像仿照这本书的模式，自己写一个mysql连接的文档。
+&emsp;&emsp;最近在看George Ornbo的node.js入门经典，因为书里用的数据库是NoSQL数据库，而平时习惯了关系型数据库，所以就想仿照这本书的模式，自己写一个mysql连接的文档。
 ## 1 连接Mysql
 ### a. 利用终端创建一个基本的Express站点：  
 &emsp;&emsp;
@@ -48,4 +48,5 @@ connection.connect(function(err){
 ```cmd
 npm start
 ```
-### f. 在终端可以看到以下结果
+### f. 在终端可以看到以下结果  
+![](https://raw.githubusercontent.com/chenxing1020/express_connect_to_Mysql/master/result.png)
